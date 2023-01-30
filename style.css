@@ -1,0 +1,25 @@
+
+body {
+    background-color:  #A569BD;
+    font-family: 'Dosis', sans-serif;
+   
+}  
+
+h1 {font-size: xx-large;}
+h3 {font-size: x-large;}
+
+div {
+    text-align: center;
+  }
+
+.hide{
+    display:none;
+  }
+
+.show{
+    display:block;
+  }
+
+
+
+/*font-family: 'Quicksand', sans-serif*/

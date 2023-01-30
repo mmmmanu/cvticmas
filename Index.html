@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
+    <title>Curriculum vitae</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="CV\images\favicon.ico">
+</head>
+
+<body>
+
+    <script src="script.js"></script>
+
+    <div>
+        <h1>Manuela Belen Piccinini</h1>
+        <img src="https://randomuser.me/api/portraits/women/11.jpg">
+        <h2>30 años</h2>
+        <h3>Lic. en Psicología</h3>
+        <p>Vivo en José Leon Suárez</p>
+        <p>Teléfono: 1234 5678</p>
+        <p> licenciada.manuela@gmail.com</p>
+        <p>@manuela.psi</p>
+    </div>
+
+    <div>
+        <button onclick="mostrardatospersonales()" id="dpboton">Datos personales</button>
+
+        <span class="hide" id="hideText">
+        <p>Formación profesional:</p>
+        <p>Licenciatura en Psicología en UBA (2012-2018)</p>
+        <p>Posgrado en Terapia sistémica (2019-2021)</p> 
+        
+        <p>Formación complementaria:</p> 
+        <p>Primera entrevista (Centro Privado de Psicoterapias)</p>
+        <p>Habilidades para el cambio (Centro Privado de Psicoterapias)</p>
+        <p>Formación en pareja y familias (Fundación Foro)</p>
+        </span>
+    </div>    
+       
+    <div>
+        <p>Si te interesó mi CV, podes dejarme tus datos para contactarme:</p>
+
+        <form action="contactame" method="post">
+        <ul>
+            <li>
+                <p><label for="name">Nombre:</label>
+                <input type="text"></p>
+                <p><label for="tel">Telefono:</label>
+                <input type="tel"></p>
+              <p>  <label for="mail">E-mail:</label>
+                <input type="mail"></p>
+            </li>
+        </ul>
+      <li class="button">
+        <button type="submit">Contactar</button>
+      </li>
+    </form>
+    </div>
+
+</body>
+
+</html>
